@@ -35,7 +35,6 @@
 ### 🎓 그린대학교 학생정보 시스템  
 > <code>Java · Spring Boot · JPA · MySQL · Thymeleaf</code>  
 - 회원가입, 아이디/비밀번호 찾기 기능 구현  
-- Spring Security 없이 기본 인증 및 예외 처리 직접 구현  
 🔗 [GitHub 보기](https://github.com/minheyok/green)
 
 ---
