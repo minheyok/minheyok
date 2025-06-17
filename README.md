@@ -1,6 +1,6 @@
 <h1 align="center">✨ 백엔드 개발자 지망생, <span style="color:#00C896;">장민혁</span>입니다! 👋</h1>
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00C896&center=true&vCenter=true&width=435&lines=끈기+%2B+꾸준함+%3D+나의+성장;끝까지+파고드는+문제+집착러;Java+%7C+Spring+전문+지망생+입니다!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00C896&center=true&vCenter=true&width=435&lines=끈기+%2B+꾸준함+%3D+나의+성장;끝까지+파고드는+문제+집착러;Java+%7C+Spring+지망생+입니다!" alt="Typing SVG" />
 </p>
 
 ---
@@ -18,8 +18,6 @@
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,spring,hibernate,mysql,javascript,react,nodejs,html,css,git,intellij,vscode,eclipse" />
 </p>
-
-> 📌 그리고 누구보다 <strong style="color:#FF6384;">Spring Security</strong>, <strong style="color:#FFA500;">REST API 설계</strong>를 정성 들여 학습했습니다.
 
 ---
 
