@@ -1,58 +1,80 @@
-<h1 align="center">✨ 끈기와 집착력으로 성장하는 백엔드 개발자 <span style="color:#00C896;">장민혁</span>입니다! 👋</h1>
+<h1 align="center">끈기와 집요함으로 성장하는 백엔드 개발자 <span style="color:#00C896;">장민혁</span>입니다</h1>
+
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00C896&center=true&vCenter=true&width=435&lines=Java+%2F+Spring+지망생입니다.;끈기+%2B+꾸준함+%3D+나의+성장;문제를+끝까지+파고드는+집요함!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=00C896&center=true&vCenter=true&width=435&lines=Java+%2F+Spring+지향+백엔드+개발자;문제를+파고드는+집요함;꾸준함은+나의+무기입니다" alt="Typing SVG" />
 </p>
 
 ---
 
-## 🔍 About Me
+## 🙋🏻‍♂️ About Me
+> 신뢰받는 개발자를 지향하며, 기술보다 태도에 집중합니다.
 
-- 🧠 <strong>Java / Spring Boot</strong> 중심의 백엔드 개발에 몰두하고 있어요  
-- 💬 <strong>문제를 끝까지 파고드는 집착력</strong>과 <strong>지속적인 개선</strong>이 저의 강점입니다  
-- 🚀 <strong>"코드는 기능보다 태도가 먼저다"</strong>라는 신념으로 성장 중입니다  
-- 🤝 팀워크를 중요하게 여기며 소통하며 개발합니다  
+- Java / Spring Boot 기반 백엔드에 집중하고 있습니다.
+- 문제를 끝까지 파고드는 **집요함**, 꾸준한 **자기 개선**을 핵심 역량으로 삼습니다.
+- 혼자보다 **같이 성장하는 팀워크**를 중요하게 생각합니다.
 
 ---
 
-## 🧰 Tech Stack
+## 🎓 Education
 
-### 💻 Backend
-<img src="https://skillicons.dev/icons?i=java,spring,hibernate,jpa" height="30"/>
+- **대진전자통신고등학교 전자과 졸업**  
+  전기전자 기초와 논리적 사고력을 바탕으로 소프트웨어 개발에 도전하고 있습니다.
 
-### 🗄️ Database
-<img src="https://skillicons.dev/icons?i=mysql" height="30"/>
+---
 
-### 🎨 Frontend
-<img src="https://skillicons.dev/icons?i=html,css,javascript,react,bootstrap" height="30"/>
+## 💡 Tech Stack
 
-### 🛠️ Tools & IDE
-<img src="https://skillicons.dev/icons?i=git,intellij,vscode,eclipse" height="30"/>
+| 분야 | 기술 |
+|------|------|
+| **Backend** | ![Java](https://skillicons.dev/icons?i=java) ![Spring](https://skillicons.dev/icons?i=spring) ![JPA](https://skillicons.dev/icons?i=hibernate) |
+| **Database** | ![MySQL](https://skillicons.dev/icons?i=mysql) |
+| **Frontend** | ![HTML](https://skillicons.dev/icons?i=html) ![CSS](https://skillicons.dev/icons?i=css) ![JavaScript](https://skillicons.dev/icons?i=javascript) ![React](https://skillicons.dev/icons?i=react) |
+| **Tools / IDE** | ![IntelliJ](https://skillicons.dev/icons?i=intellij) ![VSCode](https://skillicons.dev/icons?i=vscode) ![Git](https://skillicons.dev/icons?i=git) ![Eclipse](https://skillicons.dev/icons?i=eclipse) |
+
+---
+
+## 🧠 Skill Highlights
+
+- **Spring Boot**: REST API 설계, JWT 인증, 예외 처리 구조화
+- **JPA**: 연관관계 매핑, N+1 문제 해결 경험
+- **React**: 컴포넌트 기반 구조, 상태관리 및 이벤트 처리
+- **Git**: 브랜치 전략, PR 리뷰, GitHub Projects 사용 경험
+
+---
+
+## 🕒 My Development Timeline
+
+- **2023.12** | Java, HTML/CSS, Git 기초 학습 시작  
+- **2024.01 ~ 07** | 백엔드 국비 과정 수료 (Spring Boot 중심)  
+- **2024.03** | 고객센터 프로젝트 (LotteOn) 참여  
+- **2024.05** | 커뮤니티 & 드라이브 프로젝트 개발 (J2SM)  
+- **2024.06 ~** | 포트폴리오 정리 및 실무 지원 중
 
 ---
 
 ## 💼 Projects
 
-### 🎓 그린대학교 학생정보 시스템  
-> <code>Java · Spring Boot · JPA · MySQL · Thymeleaf</code>  
-- 회원가입, 아이디/비밀번호 찾기 기능 구현  
-🔗 [GitHub 보기](https://github.com/minheyok/green)
+### 🏫 Green University – 학생정보 시스템  
+`Java · Spring Boot · MySQL · JPA · Thymeleaf`  
+- 회원가입 및 아이디/비밀번호 찾기 기능 구현  
+🔗 [GitHub Repo](https://github.com/minheyok/green)
 
 ---
 
-### 🛍️ LotteOn 고객센터 시스템  
-> <code>JavaScript · Bootstrap · Spring Boot</code>  
-- 관리자/사용자 페이지 이원화  
-- FAQ/문의/채용 정보 관리 기능 + 검색 기능 구현  
-🔗 [GitHub 보기](https://github.com/greenlotte6/lotte1-lotteon-project-team4)  
-📺 [시연 영상](https://www.youtube.com/watch?v=5xUk7lsGvkE&t=12s)
+### 🛍️ LotteOn – 고객센터 시스템  
+`Spring Boot · JavaScript · Bootstrap`  
+- 관리자/사용자 페이지 이원화 및 FAQ/채용/문의 관리 구현  
+- 키워드 기반 검색 기능 추가  
+🔗 [GitHub Repo](https://github.com/greenlotte6/lotte1-lotteon-project-team4)  
+📺 [시연 영상 보기](https://www.youtube.com/watch?v=5xUk7lsGvkE&t=12s)
 
 ---
 
-### 🏢 롯데정보통신 사내 커뮤니티 (J2SM)  
-> <code>React · Spring Boot · JPA · MySQL</code>  
-- 공유 드라이브, 파일 복원/삭제/이동 등 주요 기능 풀스택 구현  
-- JWT 인증 기반의 사용자 구분 및 접근 제어  
-🔗 [GitHub 보기](https://github.com/greenlotte6/lotte2-community-app-project-team1)  
+### 🗂️ J2SM – 사내 커뮤니티 & 공유 드라이브  
+`React · Spring Boot · MySQL · JPA · JWT`  
+- 파일 업로드, 삭제, 복원 등 CRUD 기능 구현  
+- JWT 기반 인증 및 사용자 권한 제어  
+🔗 [GitHub Repo](https://github.com/greenlotte6/lotte2-community-app-project-team1)  
 📺 <em>시연 영상 업로드 예정</em>
 
 ---
@@ -70,7 +92,7 @@
 
 ---
 
-## 📈 GitHub Stats
+## 📊 GitHub Stats
 
 <p align="center">
   <img height="180" src="https://github-readme-stats.vercel.app/api?username=minheyok&show_icons=true&theme=tokyonight&hide_border=true"/>
@@ -79,7 +101,13 @@
 
 ---
 
-<p align="center" style="font-size: 1.1em;">  
-  🌱 아직은 배움의 과정이지만, <strong>코드로 말하는 개발자</strong>를 목표로 나아갑니다.<br/>
-  🧩 <strong>#꾸준함 #성실함 #팀워크중시</strong>
-</p>
+## 🧩 Final Note
+
+> “문제를 끝까지 해결해내는 자세, 그게 제 개발자의 태도입니다.”
+
+저는 기능 하나를 끝까지 구현해내는 꾸준함과, 코드의 원인을 파고드는 집요함을 가진 개발자입니다.  
+기술은 학습하면 되지만, 태도는 하루아침에 만들어지지 않습니다.  
+저는 개발을 단순한 일이 아닌 ‘책임지는 결과물’로 바라보며,  
+앞으로도 팀과 함께 성장하고, 신뢰받는 개발자가 되기 위해 오늘도 한 줄의 코드를 진심으로 씁니다.
+
+감사합니다.
