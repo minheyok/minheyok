@@ -44,11 +44,11 @@
 
 ## 🕒 My Development Timeline
 
-- **2023.12** | Java, HTML/CSS, Git 기초 학습 시작  
-- **2024.01 ~ 07** | 백엔드 국비 과정 수료 (Spring Boot 중심)  
-- **2024.03** | 고객센터 프로젝트 (LotteOn) 참여  
-- **2024.05** | 커뮤니티 & 드라이브 프로젝트 개발 (J2SM)  
-- **2024.06 ~** | 포트폴리오 정리 및 실무 지원 중
+- **2024.12.31~2025.07.03 | Java, HTML/CSS, Git 기초 학습 시작  
+- **2024.01.01 ~ 2025.07.03 | 백엔드 국비 과정 수료 (Spring Boot 중심)  
+- **2025.04.14~2025.05.20 | 고객센터 프로젝트 (LotteOn) 참여  
+- **2025.06.02 ~ 진행중 | 커뮤니티 & 드라이브 프로젝트 개발 (J2SM)  
+- **2025.06.15 ~ 진행중 | 포트폴리오 정리 및 실무 지원 중
 
 ---
 
@@ -70,12 +70,26 @@
 
 ---
 
-### 🗂️ J2SM – 사내 커뮤니티 & 공유 드라이브  
-`React · Spring Boot · MySQL · JPA · JWT`  
-- 파일 업로드, 삭제, 복원 등 CRUD 기능 구현  
-- JWT 기반 인증 및 사용자 권한 제어  
-🔗 [GitHub Repo](https://github.com/greenlotte6/lotte2-community-app-project-team1)  
-📺 <em>시연 영상 업로드 예정</em>
+### 🗂️ J2SM – 드라이브 기능 요약  
+`Spring Boot · React · JPA · MySQL · JWT`
+
+| 기능 | 구현 방식 요약 |
+|------|----------------|
+| 파일 업로드 | `MultipartFile` 저장, DB에 메타데이터 저장 |
+| 업로드 제한 | FREE 회원 5MB 제한 (등급별 제한 적용) |
+| 파일 다운로드 | `UrlResource`로 파일 스트리밍 |
+| 압축 다운로드 | `ZipOutputStream`으로 다중 파일 압축 전송 |
+| 폴더 구조 | `parent` 필드로 계층 구성 (`Drive` 자체로 폴더/파일 구분) |
+| 이름 변경 | PATCH 요청으로 `Drive.name` 변경 |
+| 즐겨찾기 | `isFavorite` 필드 토글 API 제공 |
+| 정렬 변경 | `sortOrder` 값 변경, 순서 반영 |
+| 휴지통 이동 | `isDeleted` true, 재귀 처리로 하위도 삭제 |
+| 복원 / 삭제 | 복원: `isDeleted` false / 삭제: `deleteById()` |
+| 공유 드라이브 | `location` 변경으로 공유 ↔ 개인 이동 |
+| 최근 본 파일 | `RecentDrive`로 최대 20개 기록/조회 |
+| 인증 처리 | JWT 기반, 사용자 인증 및 권한 분리 |
+>
+
 
 ---
 
