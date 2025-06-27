@@ -71,7 +71,7 @@
 ---
 
 ### 🗂️ J2SM – 커뮤니티 & 드라이브 기능  
-[`🔗 GitHub Repo`](https://github.com/greenlotte6/lotte2-community-app-project-team1) | [`📺 시연 영상`](https://www.youtube.com/watch?v=fiPIuWHzJOs)  
+[`🔗 GitHub Repo`](https://github.com/greenlotte6/lotte2-community-app-project-team1) | [`📺 시연 영상`](https://www.youtube.com/watch?v=jYgzeDvy4DM)  
 `Spring Boot · React · JPA · MySQL · JWT`
 
 | 기능 구분 | 구현 방식 요약 |
