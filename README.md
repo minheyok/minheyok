@@ -70,26 +70,29 @@
 
 ---
 
-### 🗂️ J2SM – 드라이브 기능 요약  
+### 🗂️ J2SM – 커뮤니티 & 드라이브 기능  
+[`🔗 GitHub Repo`](https://github.com/greenlotte6/lotte2-community-app-project-team1) | [`📺 시연 영상`](https://www.youtube.com/watch?v=fiPIuWHzJOs)  
 `Spring Boot · React · JPA · MySQL · JWT`
 
-| 기능 | 구현 방식 요약 |
-|------|----------------|
-| 파일 업로드 | `MultipartFile` 저장, DB에 메타데이터 저장 |
-| 업로드 제한 | FREE 회원 5MB 제한 (등급별 제한 적용) |
-| 파일 다운로드 | `UrlResource`로 파일 스트리밍 |
-| 압축 다운로드 | `ZipOutputStream`으로 다중 파일 압축 전송 |
-| 폴더 구조 | `parent` 필드로 계층 구성 (`Drive` 자체로 폴더/파일 구분) |
-| 이름 변경 | PATCH 요청으로 `Drive.name` 변경 |
-| 즐겨찾기 | `isFavorite` 필드 토글 API 제공 |
-| 정렬 변경 | `sortOrder` 값 변경, 순서 반영 |
-| 휴지통 이동 | `isDeleted` true, 재귀 처리로 하위도 삭제 |
-| 복원 / 삭제 | 복원: `isDeleted` false / 삭제: `deleteById()` |
-| 공유 드라이브 | `location` 변경으로 공유 ↔ 개인 이동 |
-| 최근 본 파일 | `RecentDrive`로 최대 20개 기록/조회 |
-| 인증 처리 | JWT 기반, 사용자 인증 및 권한 분리 |
->
-
+| 기능 구분 | 구현 방식 요약 |
+|-----------|----------------|
+| **파일 업로드** | `MultipartFile` 저장, DB에 메타데이터 저장 |
+| **업로드 제한** | FREE 회원 5MB 제한 (등급별 제한 적용) |
+| **파일 다운로드** | `UrlResource`로 파일 스트리밍 |
+| **압축 다운로드** | `ZipOutputStream`으로 다중 파일 압축 전송 |
+| **폴더 구조** | `parent` 필드로 계층 구성 (`Drive` 자체로 폴더/파일 구분) |
+| **이름 변경** | PATCH 요청으로 `Drive.name` 변경 |
+| **즐겨찾기** | `isFavorite` 필드 토글 API 제공 |
+| **정렬 변경** | `sortOrder` 값 변경, 순서 반영 |
+| **휴지통 이동** | `isDeleted` true, 재귀 처리로 하위도 삭제 |
+| **복원 / 삭제** | 복원: `isDeleted` false / 삭제: `deleteById()` |
+| **공유 드라이브** | `location` 변경으로 공유 ↔ 개인 이동 |
+| **최근 본 파일** | `RecentDrive`로 최대 20개 기록/조회 |
+| **인증 처리** | JWT 기반, 사용자 인증 및 권한 분리 |
+| **게시판 카테고리** | 유저 등급 기반 카테고리 생성 제한, 수정/삭제 기능 포함 |
+| **게시글 기능** | ReactQuill 에디터로 작성/수정, 첨부파일 지원, 상세조회 |
+| **게시글 권한** | 본인 글만 수정/삭제 가능, 작성자 검증 API 구현 |
+| **공개 게시판** | 전체 유저가 열람 가능한 공개 캘린더 및 게시판 구현 |
 
 ---
 
