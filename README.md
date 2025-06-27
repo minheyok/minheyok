@@ -66,12 +66,12 @@
 - 관리자/사용자 페이지 이원화 및 FAQ/채용/문의 관리 구현  
 - 키워드 기반 검색 기능 추가  
 🔗 [GitHub Repo](https://github.com/greenlotte6/lotte1-lotteon-project-team4)  
-📺 [시연 영상 보기](https://www.youtube.com/watch?v=5xUk7lsGvkE&t=12s)
+📺 [시연 영상 보기](https://www.youtube.com/watch?v=VaCz3n7Qnuc)
 
 ---
 
 ### 🗂️ J2SM – 커뮤니티 & 드라이브 기능  
-[`🔗 GitHub Repo`](https://github.com/greenlotte6/lotte2-community-app-project-team1) | [`📺 시연 영상`](https://www.youtube.com/watch?v=jYgzeDvy4DM)  
+[`🔗 GitHub Repo`](https://github.com/greenlotte6/lotte2-community-app-project-team1) | [`📺 시연 영상 보기`](https://www.youtube.com/watch?v=jYgzeDvy4DM)  
 `Spring Boot · React · JPA · MySQL · JWT`
 
 | 기능 구분 | 구현 방식 요약 |
