@@ -57,9 +57,9 @@
 ### 🏫 Green University – 학생정보 시스템  
 `Java · Spring Boot · MySQL · JPA · Thymeleaf`  
 - 회원가입 및 아이디/비밀번호 찾기 기능 구현  
-🔗 [GitHub Repo](https://github.com/minheyok/green)
-
----
+- 전반적인 학생 정보 등록 및 조회 흐름을 프론트-백엔드 연동 중심으로 구현  
+🔗 [GitHub Repo](https://github.com/minheyok/green)  
+📺 [시연 영상 보기](https://www.youtube.com/watch?v=-LqfzfKGYBI)
 
 ### 🛍️ LotteOn – 고객센터 시스템  
 `Spring Boot · JavaScript · Bootstrap`  
